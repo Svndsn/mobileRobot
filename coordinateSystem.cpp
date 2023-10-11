@@ -1,8 +1,6 @@
 #include "coordinateSystem.h"
 
-coordinateSystem::coordinateSystem() {
-
-}
+coordinateSystem::coordinateSystem() {}
 
 void coordinateSystem::addPoint(point p) {
     listOfPoints.push_back(p);

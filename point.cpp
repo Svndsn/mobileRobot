@@ -14,3 +14,11 @@ float point::getY() {
 float point::distanceBetweenPoints(point b) {
     return sqrt(pow((b.getX()-x),2)+((b.getY()-y),2));
 }
+
+void point::setX(float newX) {
+    x = newX;
+}
+
+void point::setY(float newY) {
+    y = newY;
+}
