@@ -17,3 +17,7 @@ point coordinateSystem::readNextPoint() {
 void coordinateSystem::removeFirstPoint() {
     listOfPoints.erase(listOfPoints.begin());
 }
+
+bool coordinateSystem::isListEmpty() {
+    return listOfPoints.empty();
+}
